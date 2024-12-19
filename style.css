@@ -1,0 +1,47 @@
+@import url('https://font');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root{
+  --body-color: rgba(250,250,250);
+  --color-white: rgba(250,250,250);
+  --text--body-color: rgba(38,37,37);
+  --first-color: rgba(110,87,224);
+  --first-shadow: rgba(0,0,0,0.1);
+
+  --box-color: #fff;
+  --nav-color: #fff;
+  --nav-icon: #000;
+  --logo-color: #000;
+
+  --text-color: #444444;
+  --color-white: #242526;
+
+  --icon-color: #242526;
+  --mode-color: #ccc;
+}
+
+body{
+  background-color: var(--body-color);
+}
+
+/* dark mode */
+body.dark {
+  --body-color: #202425;
+  --box-color: #fff;
+
+  --nav-color: #262425;
+  --color-white: #fff;
+  --text-color: #fff;
+
+  --nav-icon: #fff;
+  --logo-color: #fff;
+  --icon-color: #8749f2;
+  
+  --mode-color: #fff;
+}
