@@ -158,5 +158,18 @@ span{
 .about{
   display: flex;
   justify-content: center;
-  align-items: ;
+  align-items: center;
+  gap: 2rem;
+  background: var(--snd-bf-color);
 }
+
+.about-img img{
+  width: 35vw;
+}
+
+.heading {
+  text-align: center;
+  font-size: 4.5rem;
+}
+
+.
